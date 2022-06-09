@@ -6,7 +6,7 @@ import Home from './components/Home';
 function App() {
   return (
     <div className="App">
-      <AiFillShopping/>
+      <AiFillShopping className='icon'/>
       <Home/>
     </div>
   );

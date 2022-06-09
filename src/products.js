@@ -13,7 +13,7 @@ const products=[
     },
     {
         id:3,
-        name:"adidas Erkek Günlük Ayakkabı B74494 Vs Pace",
+        name:"adidas Erkek Günlük Ayakkabı",
         img:"https://cdn.dsmcdn.com/ty138/product/media/images/20210704/5/107009288/55939804/1/1_org_zoom.jpg",
         price:350
     }

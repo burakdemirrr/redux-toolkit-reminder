@@ -5,6 +5,7 @@ import "./Home.css"
 const Home = () => {
   return (
     <div className='home'>
+        <h1>Adidas</h1>
         {
             products && products.map((item)=>(
                 <div className="ittem">
