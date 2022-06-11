@@ -7,11 +7,16 @@ export const slice=createSlice({
     reducers:{
         addToCart : (state,action)=>{
             state.cartItems.push(action.payload)
-        }   
+        } ,
+        removeFromCart : (state,action)=>{
+            state.cartItems=state.cartItems.filter(
+                cartItem=>cartItem.id !== action.payload.id
+            )
+        }  
     }
 })
 
 
-export const {addToCart} =slice.actions;
+export const {addToCart,removeFromCart} =slice.actions;
 
 export default slice.reducer;
